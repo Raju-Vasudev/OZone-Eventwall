@@ -26,10 +26,10 @@ http://localhost:5160/Events
 "topic": "Demo topic",
 "speakers": "ozone",
 "details": "This is a demo topic, anything will be discussed here",
-"personOfContact": "kishan.vaishnav@thoughtworks.com",
+"personOfContact": "someone@tw.com",
 "rules": "Everyone must come in party wear",
 "deadline": "2023-09-18T06:35:25.471Z",
-"community": "fun@thoguhtworks.com",
+"community": "fun@tw.com",
 "capacity": 123,
 "type": 0,
 "tags": "fun, devs"

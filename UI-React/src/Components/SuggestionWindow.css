@@ -1,0 +1,92 @@
+.suggestion-window {
+    background-color: #a892ee;
+    background-color: #eedce7;
+    background-color: #f5e2e7;
+
+    /* position: absolute; */
+
+    padding: 2rem;
+    margin: 1rem auto;
+    width: 100%;
+    /* max-width: 50rem; */
+    border-radius: 12px;
+    /* text-align: center; */
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    /* position: relative; */
+
+    width: 28%;
+    position: absolute;
+    float: right;
+    right: 100px;
+    top: 50px;
+    margin-top: 5rem;
+}
+
+.details,
+.suggestion-window button {
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 9rem;
+    border: 1px solid #b4b3b3;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.37);
+    /* text-align: center; */
+}
+
+.details {
+    border-radius: 2rem;
+}
+
+.details .title {
+    font-weight: 700;
+    margin-left: 2rem;
+    padding: 1rem;
+}
+
+.details .description {
+    /* text-align: center; */
+    display: block;
+    margin-bottom: 1rem;
+    text-wrap: wrap;
+}
+
+.suggestion-window button {
+    /* text-align: block;
+    margin-left: 2rem;
+    padding: 1rem;
+    font-weight: 600;
+    border-radius: 2px; */
+    font: inherit;
+    cursor: pointer;
+    padding: 0.5rem;
+    /* margin-top: 0.5rem; */
+    border: 1px solid #40005d;
+    /* background-color: #f1356d; */
+    background-color: #fb87aa;
+    color: white;
+    border-radius: 12px;
+    /* margin-right: 1rem; */
+    font-weight: 200;
+    width: 8rem;
+    font-size: 1.3rem;
+}
+
+.suggestion-window button:hover {
+    background-color: #f1356d;
+    border-color: #510674;
+}
+
+.suggestion-window button:disabled {
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+    pointer-events: none;
+    cursor: not-allowed !important;
+}
+
+.info {
+    margin-bottom: 1rem;
+    color: #9880ef;
+}

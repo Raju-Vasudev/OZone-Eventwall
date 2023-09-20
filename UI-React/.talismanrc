@@ -1,0 +1,4 @@
+fileignoreconfig:
+- filename: src/Components/EventSuggestion.js
+  checksum: f190c2d112ac1353321b3a22584a7af0294e5f69896e741c5b4faa731436c30b
+version: ""

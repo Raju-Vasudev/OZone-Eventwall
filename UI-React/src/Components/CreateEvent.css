@@ -1,0 +1,119 @@
+.new-expense__controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.new-expense__control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.new-expense__control input,
+.new-expense__control select {
+    box-sizing: border-box;
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #b4b3b3;
+    width: 20rem;
+    max-width: 100%;
+}
+
+.new-expense__actions {
+    text-align: center;
+}
+
+.new-expense {
+    background-color: #a892ee;
+    background-color: #eedce7;
+    background-color: #f5e2e7;
+
+    padding: 3rem;
+    margin: 2rem auto;
+    width: 41rem;
+    max-width: 50rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.new-expense .button1 {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    border: 1px solid #40005d;
+    /* background-color: #f1356d; */
+    background-color: #fb87aa;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+    font-weight: 200;
+    width: 15rem;
+    font-size: 1.2rem;
+}
+
+.new-expense .button1:hover,
+.new-expense .button1:active {
+    background-color: #f1356d;
+    border-color: #510674;
+}
+
+.new-expense .button1.alternative {
+    color: #220131;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.new-expense .button1.alternative:hover,
+.new-expense .button1.alternative:active {
+    background-color: #ddb3f8;
+}
+
+.create-event .alert {
+    height: 2rem;
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    /* bottom: 80rem; */
+    width: 40%;
+    align-self: center;
+    margin-top: 6rem;
+    margin-left: 23rem;
+    text-align: center;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    font-weight: 600;
+    z-index: 1;
+}
+
+.create-event .alert.button {
+    width: inherit;
+}
+
+.backdrop {
+    /* filter: blur(0.5px); */
+    pointer-events: none;
+}
+
+.create-event {
+    /* position: absolute; */
+    display: flex;
+    /* align: ; */
+    justify-content: space-around;
+    /* background-color: #220131; */
+    gap: 50px;
+}
+
+.new-expense {
+    width: 42rem;
+    position: absolute;
+    float: right;
+    left: 100px;
+    top: 50px;
+    margin-top: 5rem;
+}

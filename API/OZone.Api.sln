@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OZone.Api", "OZone.Api\OZone.Api.csproj", "{B242F54F-CE25-4514-A51C-04BDAC7B4AF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OZone.Api.UnitTests", "OZone.Api.UnitTests\OZone.Api.UnitTests.csproj", "{7EF79A6F-4F16-4576-B7EE-9FEEF69AA606}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B242F54F-CE25-4514-A51C-04BDAC7B4AF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B242F54F-CE25-4514-A51C-04BDAC7B4AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B242F54F-CE25-4514-A51C-04BDAC7B4AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B242F54F-CE25-4514-A51C-04BDAC7B4AF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EF79A6F-4F16-4576-B7EE-9FEEF69AA606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EF79A6F-4F16-4576-B7EE-9FEEF69AA606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EF79A6F-4F16-4576-B7EE-9FEEF69AA606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EF79A6F-4F16-4576-B7EE-9FEEF69AA606}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

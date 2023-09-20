@@ -1,5 +1,17 @@
 # OZone
 
+### Create a SendGrid account
+Get the Key and configure the send grid.
+
+### Create a openAI (chatgpt)
+Get the API and Key.
+
+Update these values in appsettings.
+ 
+### after that run below command to set up test data using SQlite.
+Before that do cleanup any local file (db) is create by SQlite earlir. you can get that file in you project folder .local => event.db in mac os.
+After that follow below steps.
+
 #This is set up commit
 
 ## Install EF commands in dotnet
@@ -11,6 +23,10 @@ dotnet ef database update
 ## Add migration
 
 dotnet ef migrations add InitialCreate
+
+dotnet ef database update
+
+
 
 ### Create Event
 
@@ -34,5 +50,3 @@ http://localhost:5160/Events
 "type": 0,
 "tags": "fun, devs"
 }
-
-## this is test commit
